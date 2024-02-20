@@ -6,5 +6,7 @@ def shuffle(nums: list[int], n: int) -> list[int]:
         target.append(arr1[i])
         target.append(arr2[i])
     print(target)
+    return target
+
 
 shuffle([2, 5, 1, 3, 4, 7], 3)
