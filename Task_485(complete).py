@@ -14,4 +14,5 @@ def find_max_consecutive_ones(nums: list[int]) -> int:
 
 
 count = find_max_consecutive_ones([1, 1, 0, 1, 1, 1, 1, 0, 1])
+
 print(count)
